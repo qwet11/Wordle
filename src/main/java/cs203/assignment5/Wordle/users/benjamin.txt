@@ -1,0 +1,4 @@
+Current Streak:0
+Max Streak:0
+rater:-1
+hexed:-1

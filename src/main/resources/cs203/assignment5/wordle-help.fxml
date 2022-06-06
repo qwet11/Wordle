@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="547.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="532.0" prefWidth="418.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="177.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text layoutX="96.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this game, you guess the 5-letter word." wrappingWidth="226.93670654296875" />
+            <Text layoutX="153.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weclome to Wordle!" />
+            <Text layoutX="104.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submit your guess by clicking &quot;Enter&quot;" wrappingWidth="206.936767578125" />
+            <Text layoutX="82.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your guess in the text field at the bottom." />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="121.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+            <Text layoutX="210.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Default" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4c4c4" height="60.0" layoutX="121.0" layoutY="281.0" stroke="#9e9e9e" strokeType="INSIDE" width="60.0" />
+            <Text layoutX="210.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Letter is not in word" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff9d00" height="60.0" layoutX="121.0" layoutY="366.0" stroke="#c77a06" strokeType="INSIDE" width="60.0" />
+            <Text layoutX="210.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Letter is in word, but in a different position" wrappingWidth="138.11834716796875" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#39db14" height="60.0" layoutX="121.0" layoutY="452.0" stroke="#2b9611" strokeType="INSIDE" width="60.0" />
+            <Text layoutX="210.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Letter is in word and in correct position" wrappingWidth="138.11834716796875" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

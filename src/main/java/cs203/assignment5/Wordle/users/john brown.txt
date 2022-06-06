@@ -1,0 +1,4 @@
+Current Streak:2
+Max Streak:2
+rawer:6
+avail:5
